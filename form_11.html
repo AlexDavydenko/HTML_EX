@@ -11,7 +11,7 @@
       /*width:inherit !important;*/
       height: 100%;
       /* width: 100%;*/
-      margin: 10%;
+      margin: 5%;
      
     }
     .outer {
@@ -19,23 +19,24 @@
        width: 55%;
        background: linear-gradient(0deg, #332c5f, #bac1f5);
        padding: 1%; 
-       /*margin: auto;*/
-       border: 10%;
+     
+       border: 15%;
        
     }
-
+   
+    
     li {
        text-decoration: none;
        color: black;
        padding: 25px;
-       /*font-size: 30px;*/
+      
        
     }
 
     a1 li {
        display: inline-block;       
        text-decoration: none;
-       color: red;
+    
        padding: 20px;
        font-size: 12px;
        margin: 20px;
@@ -46,8 +47,11 @@
        margin: 0em;
        
     }
-    input {
-       padding: 8px;
+    .person {
+       padding: 12px;
+       margin: 2%;
+     
+      
     }
 
   </style>
@@ -57,15 +61,19 @@
       <div class="inner">
          <ul style="list-style-type:none;">
                <li > <h1>Checkout form </h1></li>   
-               <li a1><input type="text" name="fname" placeholder="First name">
-                      <input type="text" name="lname" placeholder="Last name"> </li>		
-               <li a1><input type="text" name="fname" placeholder="E-mail">
-                      <input type="text" name="lname" placeholder="Phone"> </li>	
-               <li a1><input type="text" name="fname" placeholder="Country">
-                      <input type="text" name="lname" placeholder="City"> <input type="text" name="lname" placeholder="Post code"></li>
-               <li a1><input type="text" name="fname" placeholder="Adress"></li>
-               <li a1><input type="text" name="fname" placeholder="Additional info"></li>
-         
+               <div class="person">
+                     <li a1><input type="text" placeholder="First name" >
+                           <input type="text" name="lname" placeholder="Last name"> </li>		
+                     <li a1><input type="text" name="fname" placeholder="E-mail" >
+                           <input type="text" name="lname" placeholder="Phone"> </li>	
+               </div>
+                     <li a1><input type="text" name="fname" placeholder="Country">
+                           <input type="text" name="lname" placeholder="City"> 
+                           <input type="text" name="lname" placeholder="Post code"></li>
+                     <li a1><input type="text" name="fname" placeholder="Adress"></li>
+                     <li a1><input type="text" name="fname" placeholder="Additional info"></li>
+               
+
                <li a2>
                      <form>
                         <input type="radio" name="gender" value="male" checked> Visa
